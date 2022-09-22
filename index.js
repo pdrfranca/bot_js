@@ -29,6 +29,10 @@ client.on("message", async (msg) => {
   if (msg.content === prefixo + 'oi') {
       msg.channel.send('Olá ' + msg.author.username);
   }
+  
+  if (msg.content === prefixo + 'olá') {
+      msg.reply;
+  }
 
 });
 
